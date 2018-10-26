@@ -1,0 +1,54 @@
+
+<!-- set aggregative "true" when children exist, otherwise set "false" -->
+
+<div class='tree_leaf' data-aggregative=''>
+  
+  <!-- expand branch when input is checked -->
+  
+  <input checked='' class='checkbox_for_tree_branch' data-thid='expandCheckbox' type='checkbox'>
+  
+  <!--  -->
+  
+  <div>
+    
+    <!-- expand button: -->
+    
+    <div class='tree_branch_toggle'>
+      <label class='th__icon__' data-thid='expandCheckboxLabel'></label>
+    </div>
+    
+    <!-- leaf body: -->
+    
+    <div class='tree_leaf_toggle'>
+      <div class='h' data-outer='line' style='height:28px;'>
+        
+        <!-- additional columns appear here -->
+        
+        
+        <!-- main column: -->
+        
+        <div class='h_' data-inner='stretch' data-thid='betweenContainer' style='width:100%;'>
+          <div class='h__'>
+            <div class='h___'>
+              <input class='tree_button_input' type='radio'>
+              <button class='button tree_button_main' data-shape='stretch' data-style='tree_button' data-thid='button' style='height:28px;'>
+                <span class='cut_text_outer'>
+                  <span class='cut_text_inner text' data-thid='name'>
+                    
+                    <!-- name takes this place -->
+                    
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='tree_branch' data-thid='leafsContainer'>
+      
+      <!-- inner leafs appear here -->
+      
+    </div>
+  </div>
+</div>
